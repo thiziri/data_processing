@@ -1,0 +1,844 @@
+INFO:root:Config: {
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88",
+  "run_file": "",
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88",
+  "reranking": false,
+  "runs_folder": "",
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/5_crossValid",
+  "from_run": false,
+  "binary_judgements": false,
+  "description": {
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "queries": "Gives the queries file.",
+    "data_name": "Gives the collection name.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true."
+  },
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "from_runs": false,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "cross_validation": true,
+  "from_qrels": true,
+  "scales": 3
+}
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/5_crossValid/trec_corpus.txt with 14289 lines
+INFO:root:From relevance judgements : /home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "scales": 3,
+  "reranking": false,
+  "run_file": "",
+  "binary_judgements": false,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl",
+  "from_qrels": true,
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "from_run": false,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "from_runs": false,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "runs_folder": "",
+  "cross_validation": true,
+  "description": {
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "data_name": "Gives the collection name.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "queries": "Gives the queries file.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements."
+  },
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/one_fold",
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88"
+}
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl/trec_corpus.txt with 14289 lines
+INFO:root:From relevance judgements : /home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "run_file": "",
+  "same_test_train_valid": true,
+  "from_qrels": true,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/one_fold",
+  "from_runs": false,
+  "description": {
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "queries": "Gives the queries file.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "data_name": "Gives the collection name.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run."
+  },
+  "binary_judgements": false,
+  "runs_folder": "",
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88",
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl",
+  "cross_validation": true,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "from_run": false,
+  "reranking": false,
+  "scales": 3
+}
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl/trec_corpus.txt with 14289 lines
+INFO:root:From relevance judgements : /home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "run_file": "",
+  "same_test_train_valid": true,
+  "from_qrels": true,
+  "reranking": false,
+  "from_runs": false,
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88",
+  "runs_folder": "",
+  "description": {
+    "queries": "Gives the queries file.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "data_name": "Gives the collection name.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "output_folder": "Gives the output folder where constructed file will be stored."
+  },
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/one_fold/",
+  "scales": 3,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl",
+  "from_run": false,
+  "binary_judgements": false,
+  "cross_validation": true,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88"
+}
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl/trec_corpus.txt with 14289 lines
+INFO:root:From relevance judgements : /home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "same_test_train_valid": true,
+  "reranking": false,
+  "from_runs": false,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "binary_judgements": false,
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "from_run": false,
+  "runs_folder": "",
+  "from_qrels": true,
+  "scales": 3,
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/one_fold/",
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "description": {
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "data_name": "Gives the collection name.",
+    "queries": "Gives the queries file.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "cross_validation": "set to true if want to construct data for n-cross validation."
+  },
+  "run_file": "",
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88",
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl",
+  "cross_validation": true
+}
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl/trec_corpus.txt with 14289 lines
+INFO:root:From relevance judgements : /home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl",
+  "from_qrels": true,
+  "cross_validation": true,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "from_runs": false,
+  "runs_folder": "",
+  "reranking": false,
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88",
+  "from_run": false,
+  "run_file": "",
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "description": {
+    "data_name": "Gives the collection name.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "queries": "Gives the queries file.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements."
+  },
+  "scales": 3,
+  "same_test_train_valid": true,
+  "binary_judgements": false,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ]
+}
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl/trec_corpus.txt with 14289 lines
+INFO:root:From relevance judgements : /home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "same_test_train_valid": false,
+  "from_qrels": false,
+  "from_run": false,
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/5_crossValid",
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "cross_validation": true,
+  "from_runs": true,
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "reranking": true,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_qrels/LM",
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88",
+  "runs_folder": "indri_runs",
+  "description": {
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "data_name": "Gives the collection name.",
+    "queries": "Gives the queries file.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true."
+  },
+  "binary_judgements": false,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "scales": 3
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_qrels/LM/trec_corpus.txt with 43882 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "scales": 3,
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "same_test_train_valid": false,
+  "cross_validation": true,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_qrels/okapi",
+  "runs_folder": "indri_runs",
+  "from_qrels": false,
+  "reranking": true,
+  "description": {
+    "data_name": "Gives the collection name.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "queries": "Gives the queries file.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true."
+  },
+  "from_run": false,
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88",
+  "from_runs": true,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/5_crossValid",
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "run_file": "indri_runs/okapi_k1_1.2_b_0.75_k3_7_AP88",
+  "binary_judgements": false
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_qrels/okapi/trec_corpus.txt with 43882 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "scales": 3,
+  "run_file": "indri_runs/okapi_k1_1.2_b_0.75_k3_7_AP88",
+  "description": {
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "queries": "Gives the queries file.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "data_name": "Gives the collection name."
+  },
+  "from_qrels": false,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/5_crossValid",
+  "binary_judgements": false,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "cross_validation": true,
+  "relevance_judgements": "",
+  "reranking": true,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/okapi",
+  "same_test_train_valid": false,
+  "from_run": false,
+  "from_runs": true,
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "runs_folder": "indri_runs"
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/okapi/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "runs_folder": "indri_runs",
+  "reranking": true,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "cross_validation": true,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM",
+  "description": {
+    "queries": "Gives the queries file.",
+    "data_name": "Gives the collection name.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs"
+  },
+  "from_run": false,
+  "same_test_train_valid": false,
+  "relevance_judgements": "",
+  "from_runs": true,
+  "from_qrels": false,
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/5_crossValid",
+  "binary_judgements": false,
+  "scales": 3
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "same_test_train_valid": true,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/same_test_train_valid/rerank_LM",
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "relevance_judgements": "",
+  "from_runs": true,
+  "scales": 3,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "from_run": false,
+  "runs_folder": "indri_runs",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "binary_judgements": false,
+  "cross_validation": true,
+  "reranking": true,
+  "from_qrels": false,
+  "description": {
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "data_name": "Gives the collection name.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "queries": "Gives the queries file."
+  },
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88"
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/same_test_train_valid/rerank_LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "cross_validation": true,
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/same_test_train_valid/rerank_LM",
+  "relevance_judgements": "",
+  "binary_judgements": false,
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "same_test_train_valid": true,
+  "runs_folder": "indri_runs",
+  "from_runs": true,
+  "description": {
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "queries": "Gives the queries file.",
+    "data_name": "Gives the collection name.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true."
+  },
+  "from_qrels": false,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "from_run": false,
+  "scales": 3,
+  "reranking": true,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ]
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/same_test_train_valid/rerank_LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "scales": 3,
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "cross_validation": true,
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "description": {
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "data_name": "Gives the collection name.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "queries": "Gives the queries file."
+  },
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "reranking": true,
+  "from_run": false,
+  "from_qrels": false,
+  "relevance_judgements": "",
+  "from_runs": true,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/same_test_train_valid/rerank_LM",
+  "same_test_train_valid": true,
+  "binary_judgements": false,
+  "runs_folder": "indri_runs"
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/same_test_train_valid/rerank_LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "description": {
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "queries": "Gives the queries file.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "data_name": "Gives the collection name."
+  },
+  "runs_folder": "indri_runs",
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "relevance_judgements": "",
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/same_test_train_valid/rerank_LM",
+  "scales": 3,
+  "cross_validation": true,
+  "same_test_train_valid": true,
+  "from_runs": true,
+  "from_run": false,
+  "from_qrels": false,
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "binary_judgements": false,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "reranking": true,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ]
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/same_test_train_valid/rerank_LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "from_qrels": false,
+  "from_run": false,
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "binary_judgements": false,
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "description": {
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "data_name": "Gives the collection name.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "queries": "Gives the queries file.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true."
+  },
+  "relevance_judgements": "",
+  "scales": 3,
+  "run_file": "indri_runs/okapi_k1_1.2_b_0.75_k3_7_AP88",
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/same_test_train_valid/rerank_okapi",
+  "from_runs": true,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "runs_folder": "indri_runs",
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "cross_validation": true,
+  "same_test_train_valid": true,
+  "reranking": true
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/same_test_train_valid/rerank_okapi/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "reranking": true,
+  "scales": 3,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl/rerank_okapi",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "run_file": "indri_runs/okapi_k1_1.2_b_0.75_k3_7_AP88",
+  "from_run": false,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "description": {
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "data_name": "Gives the collection name.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "queries": "Gives the queries file.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run."
+  },
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88",
+  "cross_validation": true,
+  "binary_judgements": false,
+  "from_qrels": true,
+  "same_test_train_valid": true
+}
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl/rerank_okapi/trec_corpus.txt with 38981 lines
+INFO:root:From relevance judgements : /home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "from_run": false,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl/rerank_LM",
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88",
+  "from_qrels": true,
+  "cross_validation": true,
+  "binary_judgements": false,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "scales": 3,
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "description": {
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "queries": "Gives the queries file.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "data_name": "Gives the collection name.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run."
+  },
+  "reranking": true,
+  "same_test_train_valid": true,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88"
+}
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl/rerank_LM/trec_corpus.txt with 37443 lines
+INFO:root:From relevance judgements : /home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88",
+  "from_run": false,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "from_qrels": true,
+  "reranking": false,
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "scales": 3,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl/rank_qrels",
+  "binary_judgements": false,
+  "description": {
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "data_name": "Gives the collection name.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run.",
+    "queries": "Gives the queries file.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "indexed_data": "Gives the INDRI index of the collection."
+  },
+  "cross_validation": true,
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "same_test_train_valid": true,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ]
+}
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/same_ts_tr_vl/rank_qrels/trec_corpus.txt with 37443 lines
+INFO:root:From relevance judgements : /home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "from_run": false,
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "reranking": true,
+  "binary_judgements": false,
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/5_crossValid",
+  "scales": 3,
+  "description": {
+    "data_name": "Gives the collection name.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "queries": "Gives the queries file.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "run_file": "Gives the TREC formatted run file, if extraction from only one run."
+  },
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "cross_validation": true,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "relevance_judgements": "/home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88",
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/5_crossValid/rerank_LM",
+  "from_qrels": true
+}
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_qrels/5_crossValid/rerank_LM/trec_corpus.txt with 37443 lines
+INFO:root:From relevance judgements : /home/thiziri/Documents/DOCTORAT/COLLECTION/QRELS/extractedQrels/qrels251_300AP88
+INFO:root:Data cross-validation, resulting files are in %s

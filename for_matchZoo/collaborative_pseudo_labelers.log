@@ -1,0 +1,367 @@
+INFO:root:Config: {
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "cross_validation": true,
+  "relevance_judgements": "",
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "runs_folder": "indri_runs",
+  "description": {
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "data_name": "Gives the collection name.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "queries": "Gives the queries file.",
+    "num_folds": "give the number of folds, n value, if cross_validation=true.",
+    "run_file": "give the run_file for reranking",
+    "binary_judgements": "set to true to generate binary judgements for ranked documents",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "reranking": "set to true if want to rerank a run_file results",
+    "scales": "give a number of scales if not binary judgements",
+    "output_folder": "Gives the output folder where constructed file will be stored."
+  },
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "binary_judgements": false,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "reranking": false,
+  "scales": 3,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM"
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM",
+  "description": {
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "run_file": "give the 2k run_file for reranking",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "k": "Number of results to rerank from the run_file",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "queries": "Gives the queries file.",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "scales": "give a number of scales if not binary judgements",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "cross_validation": "set to true if cross_validation",
+    "reranking": "set to true if want to rerank a run_file results",
+    "binary_judgements": "set to true to generate binary judgements for ranked documents"
+  },
+  "relevance_judgements": "",
+  "k": 2000,
+  "runs_folder": "indri_runs",
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "scales": 3,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "cross_validation": true,
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "binary_judgements": false,
+  "reranking": false
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "runs_folder": "indri_runs",
+  "reranking": false,
+  "cross_validation": true,
+  "description": {
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "reranking": "set to true if want to rerank a run_file results",
+    "cross_validation": "set to true if cross_validation",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "run_file": "give the 2k run_file for reranking",
+    "scales": "give a number of scales if not binary judgements",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "queries": "Gives the queries file.",
+    "k": "Number of results to rerank from the run_file",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "binary_judgements": "set to true to generate binary judgements for ranked documents",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements."
+  },
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "scales": 3,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM",
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "k": 2000,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "binary_judgements": false,
+  "relevance_judgements": ""
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM",
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "binary_judgements": false,
+  "relevance_judgements": "",
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "k": 1000,
+  "scales": 3,
+  "runs_folder": "indri_runs",
+  "reranking": false,
+  "cross_validation": true,
+  "description": {
+    "queries": "Gives the queries file.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "run_file": "give the 2k run_file for reranking",
+    "binary_judgements": "set to true to generate binary judgements for ranked documents",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "k": "Number of results to rerank from the run_file",
+    "scales": "give a number of scales if not binary judgements",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "reranking": "set to true if want to rerank a run_file results",
+    "cross_validation": "set to true if cross_validation",
+    "ranks": "a list of rank intervals that will be used with the scales."
+  },
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ]
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "binary_judgements": false,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM",
+  "k": 1000,
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "relevance_judgements": "",
+  "description": {
+    "binary_judgements": "set to true to generate binary judgements for ranked documents",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "scales": "give a number of scales if not binary judgements",
+    "run_file": "give the 2k run_file for reranking",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "queries": "Gives the queries file.",
+    "cross_validation": "set to true if cross_validation",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "reranking": "set to true if want to rerank a run_file results",
+    "k": "Number of results to rerank from the run_file"
+  },
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "cross_validation": true,
+  "runs_folder": "indri_runs",
+  "reranking": false,
+  "scales": 3
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "cross_validation": true,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "reranking": false,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "runs_folder": "indri_runs",
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM",
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "relevance_judgements": "",
+  "k": 1000,
+  "binary_judgements": false,
+  "description": {
+    "cross_validation": "set to true if cross_validation",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "scales": "give a number of scales if not binary judgements",
+    "reranking": "set to true if want to rerank a run_file results",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "run_file": "give the 2k run_file for reranking",
+    "binary_judgements": "set to true to generate binary judgements for ranked documents",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "k": "Number of results to rerank from the run_file",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "queries": "Gives the queries file."
+  },
+  "scales": 3
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "runs_folder": "indri_runs",
+  "cross_validation": true,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "relevance_judgements": "",
+  "k": 1000,
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM",
+  "reranking": false,
+  "scales": 3,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "description": {
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "cross_validation": "set to true if cross_validation",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "k": "Number of results to rerank from the run_file",
+    "reranking": "set to true if want to rerank a run_file results",
+    "scales": "give a number of scales if not binary judgements",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "run_file": "give the 2k run_file for reranking",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "binary_judgements": "set to true to generate binary judgements for ranked documents",
+    "queries": "Gives the queries file."
+  },
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "binary_judgements": false,
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88"
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "scales": 3,
+  "binary_judgements": false,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "k": 1000,
+  "relevance_judgements": "",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/AP88/same_test_train_valid",
+  "reranking": true,
+  "description": {
+    "k": "Number of results to rerank from the run_file",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "scales": "give a number of scales if not binary judgements",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "reranking": "set to true if want to rerank a run_file results",
+    "binary_judgements": "set to true to generate binary judgements for ranked documents",
+    "queries": "Gives the queries file.",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "run_file": "give the 2k run_file for reranking",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "cross_validation": "set to true if cross_validation"
+  },
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88",
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "run_file": "indri_runs/dirichlet_mu_2500_AP88",
+  "runs_folder": "indri_runs",
+  "output_folder": "/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM",
+  "cross_validation": true
+}
+INFO:root:From a set of runs in indri_runs
+INFO:root:Corpus file saved to /home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo_latest/data/AP88/from_indri_run/combined_runs_then_rerank/judged_with_multigrade/LM/trec_corpus.txt with 40482 lines
+INFO:root:Data cross-validation, resulting files are in %s
