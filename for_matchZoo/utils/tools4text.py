@@ -185,6 +185,28 @@ def extractTopics(path_top):
     return collections.OrderedDict(sorted(topics.items()))
 
 
+""" 
+Extract TREC million queries on the path_top parameter as dictionnary. 
+return: dictionnary of queries.
+ex: {0:"this is a text of the query"}
+"""
+def extract_trec_million_queries(path_top):
+    topics = {}
+    for f in listdir(path_top):
+        print("Processing file ", f)
+        if ".gz" not in f:
+            input = open(join(path_top, f), 'r')   # Reading file
+        else:
+            input = gzip.open(join(path_top, f))
+        for line in tqdm(input.readlines()):
+            l = line.decode("iso-8859-15")
+            query = l.strip().split(":")
+            q = int(query[0])
+            q_text = query[1]
+            topics[q] = q_text
+    return collections.OrderedDict(sorted(topics.items()))
+
+
 """
 Read the qrels file to a dictionary.
 Return dictionary of: {(q_id, d_id):rel} 

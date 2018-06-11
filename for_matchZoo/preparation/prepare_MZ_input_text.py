@@ -11,7 +11,7 @@ from collections import defaultdict
 sys.path.append('../for_matchZoo/utils')
 
 from tools4text import extractTopics, clean, get_qrels, save_corpus, get_docs_from_run, run2relations
-from tools4text import rank_to_relevance, path_leaf, remove_extension
+from tools4text import rank_to_relevance, path_leaf, remove_extension, extract_trec_million_queries
 
 
 logging.basicConfig(filename='collect2MZinpuText.log',level=logging.DEBUG)
@@ -32,16 +32,16 @@ if __name__ == '__main__':
     for doc in range(index.document_base(), index.maximum_document()):
         extD, _ = index.document(doc)
         externalDocId[extD] = doc
-    queries = extractTopics(config["queries"])
+    queries = extractTopics(config["queries"]) if not bool([config["million_query"]]) else extract_trec_million_queries(config["queries"])
     queries_text = {}
     q_times = defaultdict(int)
     for q in queries:
-        q_text = clean(queries[q], "krovetz",{})
+        q_text = clean(queries[q], "krovetz", {})
         q_times[q_text] += 1
-        queries_text[q] = q_text if q_times[q_text]==1 else ' '.join([q_text, str(q_times[q_text])])
+        queries_text[q] = q_text if q_times[q_text] == 1 else ' '.join([q_text, str(q_times[q_text])])
 
     out_trec_f = join(config["output_folder"], "trec_corpus.txt")
-    out_t = codecs.open(out_trec_f,"w",encoding='utf8')
+    out_t = codecs.open(out_trec_f, "w", encoding='utf8')
 
     print("Collection2Text ...")
     nl = 0
