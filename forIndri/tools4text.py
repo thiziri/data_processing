@@ -203,7 +203,7 @@ def extract_trec_million_queries(path_top):
             l = line.decode("iso-8859-15")
             query = l.strip().split(":")
             q = int(query[0])
-            q_text = query[1]
+            q_text = query[-1]  # last token string
             topics[q] = q_text
     return collections.OrderedDict(sorted(topics.items()))
 

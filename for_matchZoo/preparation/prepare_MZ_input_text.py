@@ -18,7 +18,6 @@ logging.basicConfig(filename='collect2MZinpuText.log',level=logging.DEBUG)
 
 if __name__ == '__main__':
     config_file = sys.argv[1]
-    #print(sys.argv[1])
     config = json.load(open(config_file))
     logging.info('Config: '+json.dumps(config, indent=2))
 
@@ -32,10 +31,12 @@ if __name__ == '__main__':
     for doc in range(index.document_base(), index.maximum_document()):
         extD, _ = index.document(doc)
         externalDocId[extD] = doc
-    queries = extractTopics(config["queries"]) if not bool([config["million_query"]]) else extract_trec_million_queries(config["queries"])
+    queries = extractTopics(config["queries_folder"]) if config["queries_format"] == "trec"\
+        else extract_trec_million_queries(config["queries"])
     queries_text = {}
     q_times = defaultdict(int)
-    for q in queries:
+    print("Preprocess queries ...")
+    for q in tqdm(queries):
         q_text = clean(queries[q], "krovetz", {})
         q_times[q_text] += 1
         queries_text[q] = q_text if q_times[q_text] == 1 else ' '.join([q_text, str(q_times[q_text])])
@@ -50,8 +51,8 @@ if __name__ == '__main__':
     if config["from_qrels"]:
         qrels = get_qrels(config["relevance_judgements"])  # qrels[(q, doc)] = rel q:str, rel:int
         ranked_documents = set([e[1] for e in qrels])
-        if bool(config["run_file"]):
-            ranked_documents = ranked_documents.union(get_docs_from_run(config["run_file"]))
+        if bool(config["rerank_run"]):
+            ranked_documents = ranked_documents.union(get_docs_from_run(config["rerank_run"]))
         print("totalling: %d documents" % len(ranked_documents))
         nl = save_corpus(queries_text, ranked_documents, index, id2token, externalDocId, out_t)
 
@@ -61,17 +62,17 @@ if __name__ == '__main__':
         logging.info('From relevance judgements : ' + config["relevance_judgements"])
 
     elif config["from_run"]:
-        logging.info("From run: " + config["run_file"])
+        logging.info("From run: " + config["train_run"])
         qrels = get_qrels(config["relevance_judgements"]) if bool(config["relevance_judgements"]) else []
 
-        ranked_documents = get_docs_from_run(config["run_file"])
+        ranked_documents = get_docs_from_run(config["train_run"])
         if bool(config["relevance_judgements"]):
             ranked_documents = ranked_documents.union(set([e[1] for e in qrels]))
             
         print("totalling: %d documents" % len(ranked_documents))
         nl = save_corpus(queries_text, ranked_documents, index, id2token, externalDocId, out_t)
         logging.info("Corpus file saved to " + out_trec_f+" with "+str(nl)+" lines")
-        relations = run2relations(config["run_file"], config["binary_judgements"], qrels, config["scales"], config["ranks"])
+        relations = run2relations(config["train_run"], config["binary_judgements"], qrels, config["scales"], config["ranks"])
 
     # write corpus content
     if not config["cross_validation"]:
@@ -105,8 +106,8 @@ if __name__ == '__main__':
         qrels = get_qrels(config["relevance_judgements"]) if bool(config["relevance_judgements"]) else []
         # qrels[(str,str)]:int
         relations_test = []
-        if bool(config["run_file"]):
-            relations_test = run2relations(config["run_file"],
+        if bool(config["rerank_run"]):
+            relations_test = run2relations(config["rerank_run"],
                                        config["binary_judgements"],
                                        qrels,
                                        config["scales"],
@@ -115,21 +116,25 @@ if __name__ == '__main__':
 
         for fold in os.listdir(config["split_data"]):
             # print("fold ", fold)
-            qid_test = [l.strip() for l in open(join(join(config["split_data"], fold), "test_.txt"), "r").readlines()]
-            qid_valid = [l.strip() for l in open(join(join(config["split_data"], fold), "valid_.txt"), "r").readlines()]
-            qid_train = [l.strip() for l in open(join(join(config["split_data"], fold), "train_.txt"), "r").readlines()]
+            if os.path.isdir(fold):
+                qid_test = [l.strip() for l in open(join(join(config["split_data"], fold), "test_.txt"),
+                                                    'r').readlines()]
+                qid_valid = [l.strip() for l in open(join(join(config["split_data"], fold), "valid_.txt"),
+                                                     'r').readlines()]
+                qid_train = [l.strip() for l in open(join(join(config["split_data"], fold), "train_.txt"),
+                                                     'r').readlines()]
 
-            rel_train = select_rel_by_qids(qid_train, relations)
-            rel_valid = select_rel_by_qids(qid_valid, relations)
-            rel_test = set()
-            if not config["reranking"]:
-                rel_test = select_rel_by_qids(qid_test, relations)
-            else:
-                # print(relations_test)
-                rel_test = select_rel_by_qids(qid_test, relations_test)
-                # print(qid_test)
-                # print(rel_test)
-            folds[path_leaf(fold)] = {"test": rel_test, "valid": rel_valid, "train": rel_train}
+                rel_train = select_rel_by_qids(qid_train, relations)
+                rel_valid = select_rel_by_qids(qid_valid, relations)
+                rel_test = set()
+                if not config["reranking"]:
+                    rel_test = select_rel_by_qids(qid_test, relations)
+                else:
+                    # print(relations_test)
+                    rel_test = select_rel_by_qids(qid_test, relations_test)
+                    # print(qid_test)
+                    # print(rel_test)
+                folds[path_leaf(fold)] = {"test": rel_test, "valid": rel_valid, "train": rel_train}
 
         print("save relation files in different folds ...")
         for fold in tqdm(folds):
@@ -141,10 +146,12 @@ if __name__ == '__main__':
                     q = r[0][0]
                     doc = r[0][1]
                     rel = r[1]
+                    doc_text = ""
                     try:
                         doc_text = " ".join([id2token[x] for x in index.document(externalDocId[doc])[1] if x != 0])
-                    except:
-                        doc_text = ""
+                    finally:
+                        pass
+
                     if doc_text != "":
                         out.write("{r}\t{q}\t{d}\n".format(r=rel, q=queries_text[q], d=doc_text, encoding='utf8'))
                 out.close()

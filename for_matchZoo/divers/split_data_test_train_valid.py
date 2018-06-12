@@ -6,7 +6,7 @@ import os
 
 sys.path.append('../for_matchZoo/utils')
 
-from tools4text import chunkIt, extractTopics
+from tools4text import chunkIt, extractTopics, extract_trec_million_queries
 from tqdm import tqdm
 from os.path import join
 
@@ -14,14 +14,16 @@ from os.path import join
 if __name__ == '__main__':
     print("Split data into folds for training,tast and validation")
     config_file = sys.argv[1]
-    config = json.load(open(config_file))
+    config_all = json.load(open(config_file))
+    config = config_all["parameters"]
     print('Config: '+json.dumps(config, indent=2))
 
     if config["only_queries"] or config["only_docs"]:
         to_split = []
 
         if config["only_queries"]:
-            queries = extractTopics(config["queries_folder"])
+            queries = extractTopics(config["queries_folder"]) if config["queries_format"] == "trec" \
+                else extract_trec_million_queries(config["queries_folder"])
             to_split = list(queries.keys())
         elif config["only_docs"]:
             index = pyndri.Index(config["index"])
@@ -52,7 +54,7 @@ if __name__ == '__main__':
                 os.mkdir(f)
                 for group in folds[i]:
                     with open(join(f, group+"_.txt"), "w") as q_out:
-                        q_out.write("\n".join(folds[i][group]))
+                        q_out.write("\n".join([str(q) for q in folds[i][group]]))
 
         print("Saved data ok.")
 

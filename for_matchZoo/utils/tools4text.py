@@ -14,6 +14,7 @@ import nltk
 from tqdm import tqdm
 import ntpath
 import csv
+import gzip
 from random import shuffle
 
 
@@ -123,15 +124,15 @@ return cleaned and stemmed text
 """
 def clean(text_to_clean, steming, stoplist):
     prog = re.compile("[_\-\(]*([A-Z]\.)*[_\-\(]*")
-    tex=[]
+    tex = []
     for w in text_to_clean.split():
         if prog.match(w):
-            w=w.replace('.','')
+            w = w.replace('.', '')
         tex.append(w)
-    text=" ".join(tex)
-    text=' '.join(escape(text).split())
-    text=" ".join(nltk.word_tokenize(text))
-    text=" ".join([stem(steming,w) for w in text.split() if w not in stoplist])
+    text = " ".join(tex)
+    text = ' '.join(escape(text).split())
+    text = " ".join(nltk.word_tokenize(text))
+    text = " ".join([stem(steming, w) for w in text.split() if w not in stoplist])
     return text
 
 
@@ -202,7 +203,7 @@ def extract_trec_million_queries(path_top):
             l = line.decode("iso-8859-15")
             query = l.strip().split(":")
             q = int(query[0])
-            q_text = query[1]
+            q_text = query[-1]  # last token string
             topics[q] = q_text
     return collections.OrderedDict(sorted(topics.items()))
 
@@ -378,7 +379,7 @@ Return: list of relations [((q, doc), rel)]
 """
 def run2relations(run_file, if_bin, qrels, scales, ranks, k=1000):
     relations = []
-    with open(run_file,"r") as rank:
+    with open(run_file, "r") as rank:
         i = 0
         j = -1
         queries_rank = []
