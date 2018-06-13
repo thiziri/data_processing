@@ -1,0 +1,110 @@
+INFO:root:Config: {
+  "train_run": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "scales": 3,
+  "relevance_judgements": "",
+  "binary": false,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs",
+  "k": 2000
+}
+INFO:root:Config: {
+  "binary": false,
+  "relevance_judgements": "",
+  "scales": 3,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs",
+  "train_run": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "k": 2000,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ]
+}
+INFO:root:Config: {
+  "k": 2000,
+  "relevance_judgements": "",
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs",
+  "scales": 3,
+  "train_run": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "binary": false
+}
+INFO:root:Config: {
+  "k": 2000,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "binary": false,
+  "relevance_judgements": "",
+  "train_run": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "scales": 3,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs"
+}
+INFO:root:Config: {
+  "scales": 3,
+  "binary": false,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs",
+  "train_run": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "k": 2000,
+  "relevance_judgements": ""
+}

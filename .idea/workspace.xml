@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b734dbe2-0fea-4a0a-afdd-0edfd85ceda8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/for_matchZoo/config/run2relations.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_matchZoo/preparation/run2relations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project" beforeDir="false" afterPath="$PROJECT_DIR$/../.." afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forIndri/construcrQueryFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/forIndri/construcrQueryFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forIndri/tools4text.py" beforeDir="false" afterPath="$PROJECT_DIR$/forIndri/tools4text.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for_matchZoo/collect2MZinpuText.log" beforeDir="false" afterPath="$PROJECT_DIR$/for_matchZoo/collect2MZinpuText.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for_matchZoo/config/prepare_MZ_input_text.config" beforeDir="false" afterPath="$PROJECT_DIR$/for_matchZoo/config/prepare_MZ_input_text.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_matchZoo/config/split_data_test_train_valid.config" beforeDir="false" afterPath="$PROJECT_DIR$/for_matchZoo/config/split_data_test_train_valid.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_matchZoo/divers/split_data_test_train_valid.py" beforeDir="false" afterPath="$PROJECT_DIR$/for_matchZoo/divers/split_data_test_train_valid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for_matchZoo/preparation/prepare_MZ_input_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/for_matchZoo/preparation/prepare_MZ_input_text.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for_matchZoo/utils/tools4text.py" beforeDir="false" afterPath="$PROJECT_DIR$/for_matchZoo/utils/tools4text.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/test_binsum_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/test_binsum_generator.py" afterDir="false" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="merge_runs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/merge_runs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="135">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -34,11 +35,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prepare_MZ_input_text.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prepare_MZ_input_text.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/for_matchZoo/preparation/prepare_MZ_input_text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="109" column="26" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="26" />
+            <state relative-caret-position="-735">
+              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run2relations.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/for_matchZoo/preparation/run2relations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run2relations.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/for_matchZoo/config/run2relations.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -46,17 +68,17 @@
       <file leaf-file-name="prepare_MZ_input_text.config" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/for_matchZoo/config/prepare_MZ_input_text.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="103" />
+            <state relative-caret-position="330">
+              <caret line="25" column="122" selection-start-line="25" selection-start-column="122" selection-end-line="25" selection-end-column="122" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tools4text.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tools4text.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/for_matchZoo/utils/tools4text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2570">
-              <caret line="205" column="51" selection-start-line="205" selection-start-column="51" selection-end-line="205" selection-end-column="51" />
+            <state relative-caret-position="195">
+              <caret line="217" column="16" lean-forward="true" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -65,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/for_matchZoo/divers/split_data_test_train_valid.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -74,19 +96,7 @@
         <entry file="file://$PROJECT_DIR$/for_matchZoo/config/split_data_test_train_valid.config">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_triletter_preprocess.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/test_triletter_preprocess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#40#49#0" expanded="true" />
-              </folding>
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -129,6 +139,7 @@
       <find>\t</find>
       <find>save</find>
       <find>run2relations</find>
+      <find>qrels</find>
     </findStrings>
     <replaceStrings>
       <replace>return</replace>
@@ -139,9 +150,11 @@
       <replace>valid_p10</replace>
       <replace>test_p10</replace>
       <replace>config[&quot;train_run&quot;]</replace>
+      <replace>QRELS</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -167,12 +180,14 @@
         <option value="$PROJECT_DIR$/../util/evaluationAndMesures/merge_runs.py" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/test_triletter_preprocess.py" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/test_binsum_generator.py" />
-        <option value="$PROJECT_DIR$/forIndri/construcrQueryFile.py" />
         <option value="$PROJECT_DIR$/for_matchZoo/divers/split_data_test_train_valid.py" />
         <option value="$PROJECT_DIR$/for_matchZoo/config/split_data_test_train_valid.config" />
-        <option value="$PROJECT_DIR$/for_matchZoo/preparation/prepare_MZ_input_text.py" />
-        <option value="$PROJECT_DIR$/for_matchZoo/utils/tools4text.py" />
+        <option value="$PROJECT_DIR$/for_matchZoo/config/run2relations.config" />
+        <option value="$PROJECT_DIR$/for_matchZoo/preparation/run2relations.py" />
         <option value="$PROJECT_DIR$/forIndri/tools4text.py" />
+        <option value="$PROJECT_DIR$/for_matchZoo/utils/tools4text.py" />
+        <option value="$PROJECT_DIR$/forIndri/construcrQueryFile.py" />
+        <option value="$PROJECT_DIR$/for_matchZoo/preparation/prepare_MZ_input_text.py" />
         <option value="$PROJECT_DIR$/for_matchZoo/config/prepare_MZ_input_text.config" />
       </list>
     </option>
@@ -211,13 +226,7 @@
               <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_preparation" type="462c0819:PsiDirectoryNode" />
               <item name="for_matchZoo" type="462c0819:PsiDirectoryNode" />
-              <item name="divers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="for_matchZoo" type="462c0819:PsiDirectoryNode" />
-              <item name="indri_runs" type="462c0819:PsiDirectoryNode" />
+              <item name="preparation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
@@ -319,13 +328,13 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24543081" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32957393" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32988358" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32858992" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32957393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4450194" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39974937" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.44372573" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39974937" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -344,20 +353,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/for_matchZoo/config/split_data_test_train_valid.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_matchZoo/preparation/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/for_matchZoo/divers/split_data_test_train_valid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -619,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/merge_runs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="135">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -630,52 +625,66 @@
     <entry file="file://$PROJECT_DIR$/for_matchZoo/config/split_data_test_train_valid.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forIndri/construcrQueryFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
-          <folding>
-            <element signature="e#43#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forIndri/tools4text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="205" column="51" selection-start-line="205" selection-start-column="51" selection-end-line="205" selection-end-column="51" />
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/for_matchZoo/divers/split_data_test_train_valid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/for_matchZoo/utils/tools4text.py">
+    <entry file="file://$PROJECT_DIR$/forIndri/tools4text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2570">
-          <caret line="205" column="51" selection-start-line="205" selection-start-column="51" selection-end-line="205" selection-end-column="51" />
+        <state relative-caret-position="521">
+          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forIndri/construcrQueryFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_matchZoo/preparation/run2relations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_matchZoo/config/run2relations.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/for_matchZoo/config/prepare_MZ_input_text.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="103" />
+        <state relative-caret-position="330">
+          <caret line="25" column="122" selection-start-line="25" selection-start-column="122" selection-end-line="25" selection-end-column="122" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/for_matchZoo/preparation/prepare_MZ_input_text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="109" column="26" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="26" />
+        <state relative-caret-position="-735">
+          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_matchZoo/utils/tools4text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="217" column="16" lean-forward="true" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
         </state>
       </provider>
     </entry>

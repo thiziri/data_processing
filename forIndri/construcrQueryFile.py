@@ -3,9 +3,8 @@
 import collections
 import docopt
 import re
-from pyndri import escape
 from nltk.tokenize.moses import MosesTokenizer
-from tools4text import extract_trec_topics, extract_trec_million_queries
+from tools4text import extract_trec_topics, extract_trec_million_queries, escape
 from os.path import join
 from tqdm import tqdm
 

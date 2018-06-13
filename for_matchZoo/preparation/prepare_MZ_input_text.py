@@ -72,7 +72,14 @@ if __name__ == '__main__':
         print("totalling: %d documents" % len(ranked_documents))
         nl = save_corpus(queries_text, ranked_documents, index, id2token, externalDocId, out_t)
         logging.info("Corpus file saved to " + out_trec_f+" with "+str(nl)+" lines")
-        relations = run2relations(config["train_run"], config["binary_judgements"], qrels, config["scales"], config["ranks"])
+        if bool(config["train_relations"]):
+            qrels_like = get_qrels(config["train_relations"])
+            relations = [((e[0], e[1]), qrels_like[e]) for e in qrels_like]
+        else:
+            relations = run2relations(config["train_run"], config["binary_judgements"], qrels, config["scales"], config["ranks"])
+
+    else:
+        print("Configuration error.")
 
     # write corpus content
     if not config["cross_validation"]:

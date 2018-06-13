@@ -101,6 +101,7 @@ def escape(input):
         ord('@'): ' ',
         ord('~'): ' ',
         ord('='): None,
+        ord('*'): None,
     })
 
 

@@ -101,6 +101,7 @@ def escape(input):
         ord('@'): ' ',
         ord('~'): ' ',
         ord('='): None,
+        ord('*'): None,
     })
 
 
@@ -358,7 +359,7 @@ def rank2relations(rank_file, if_bin, out):
                     out.write("{q} 0 {d} {r}\n".format(q=q, d=doc, r=rel))
                     if i in range(1, 11) or i in range(981, 1001):
                         relations.insert(j, (rel, q, doc))
-    #return enumerate(relations)
+    # return enumerate(relations)
     return relations
 
 
