@@ -123,7 +123,7 @@ if __name__ == '__main__':
 
         for fold in os.listdir(config["split_data"]):
             # print("fold ", fold)
-            if os.path.isdir(fold):
+            if os.path.isdir(join(config["split_data"], fold)):
                 qid_test = [l.strip() for l in open(join(join(config["split_data"], fold), "test_.txt"),
                                                     'r').readlines()]
                 qid_valid = [l.strip() for l in open(join(join(config["split_data"], fold), "valid_.txt"),
