@@ -6,6 +6,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="MatchZoo" />
     <orderEntry type="module" module-name="util" />
+    <orderEntry type="module" module-name="collaborativeLabelling" />
+    <orderEntry type="module" module-name="collaborativeLabelling" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

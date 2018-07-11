@@ -1,0 +1,25 @@
+{
+  "description":{
+    "stemmer":"krovetz or porter",
+    "stop": "If perform stopwords removal",
+    "output_format": "txt or xml",
+    "indices": "Gives the id label and the content labels for parsing in addition to the corresponding content to ignore"
+  },
+  "main_configuration":{
+    "topics_folder": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/robust4/top/topics",
+    "stemmer":"krovetz",
+    "stop": false,
+    "output": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/topics_robust4_title_desc",
+    "output_format": "xml",
+    "indices": {
+      "content": {
+        "<title>": "topic",
+        "<desc>": "description"
+      },
+      "id": [
+        "<num>",
+        "number:"
+      ]
+    }
+  }
+}

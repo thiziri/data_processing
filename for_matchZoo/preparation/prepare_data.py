@@ -28,10 +28,10 @@ def get_relations(file_path):
 if __name__ == '__main__':
 	args = docopt.docopt("""
 		Usage:
-			prepare_data.py --d=<data> 
+			preprocessing.py --d=<data> 
 
 		Example:
-			prepare_data.py --d=/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo/my_tests/custom_test/data/AP88/from_qrels
+			preprocessing.py --d=/home/thiziri/Documents/DOCTORAT/SOFT/MatchZoo/my_tests/custom_test/data/AP88/from_qrels
 
 		Options:
 			--d=<data>	Path to MatchZoo data corpus.txt and relation.txt.

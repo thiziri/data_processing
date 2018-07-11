@@ -1192,3 +1192,335 @@ INFO:root:Config: {
   ],
   "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88"
 }
+INFO:root:Config: {
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/million_queries/same_test_train_valid",
+  "rerank_run": "indri_runs/okapi_k1_1.2_b_0.75_k3_7_AP88",
+  "binary_judgements": false,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "output_folder": "/home/thiziri/Desktop",
+  "cross_validation": true,
+  "from_qrels": false,
+  "queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/trec_million_queries/MQ_queries",
+  "queries_format": "mq",
+  "reranking": true,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "train_relations": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/run2relations_okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "from_run": true,
+  "relevance_judgements": "",
+  "description": {
+    "split_data": "Gives the split data into test/train/valid folds",
+    "rerank_run": "Gives the TREC formatted run file that will be re-ranked",
+    "binary_judgements": "set to true to use 1 or 0 relevance judgement",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "from_qrels": "set to true to train in data from relevance judgements",
+    "queries": "Gives the queries file.",
+    "reranking": "set to true if want to rerank a run_file results",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "train_relations": "Gives the trec_qrels like file with training labels",
+    "from_run": "set to true to train in data from a given run_file",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "train_run": "Gives the TREC formatted run file, if train data will be extracted from only one run.",
+    "k": "Number of results to rerank from the run_file",
+    "scales": "give a number of scales if not binary judgements"
+  },
+  "train_run": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "k": 2000,
+  "scales": 3
+}
+INFO:root:From run: /home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ
+INFO:root:Corpus file saved to /home/thiziri/Desktop/trec_corpus.txt with 139908 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "relevance_judgements": "",
+  "binary_judgements": false,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "cross_validation": true,
+  "scales": 3,
+  "train_queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/trec_million_queries/MQ_queries",
+  "train_run": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "reranking": true,
+  "from_qrels": false,
+  "train_queries_format": "mq",
+  "test_queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88/",
+  "description": {
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "binary_judgements": "set to true to use 1 or 0 relevance judgement",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "scales": "give a number of scales if not binary judgements",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "k": "Number of results to rerank from the run_file",
+    "reranking": "set to true if want to rerank a run_file results",
+    "queries": "Gives the queries file.",
+    "from_qrels": "set to true to train in data from relevance judgements",
+    "from_run": "set to true to train in data from a given run_file",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "train_relations": "Gives the trec_qrels like file with training labels",
+    "train_run": "Gives the TREC formatted run file, if train data will be extracted from only one run.",
+    "rerank_run": "Gives the TREC formatted run file that will be re-ranked",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "ranks": "a list of rank intervals that will be used with the scales."
+  },
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/million_queries/same_test_train_valid",
+  "train_relations": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/run2relations_okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "from_run": true,
+  "rerank_run": "indri_runs/okapi_k1_1.2_b_0.75_k3_7_AP88",
+  "test_queries_format": "trec",
+  "output_folder": "/home/thiziri/Desktop",
+  "k": 2000,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ]
+}
+INFO:root:From run: /home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ
+INFO:root:Config: {
+  "from_qrels": false,
+  "test_queries_format": "trec",
+  "train_relations": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/run2relations_okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/million_queries/same_test_train_valid",
+  "rerank_run": "indri_runs/okapi_k1_1.2_b_0.75_k3_7_AP88",
+  "k": 2000,
+  "test_queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88/",
+  "binary_judgements": false,
+  "description": {
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "from_qrels": "set to true to train in data from relevance judgements",
+    "train_relations": "Gives the trec_qrels like file with training labels",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "rerank_run": "Gives the TREC formatted run file that will be re-ranked",
+    "k": "Number of results to rerank from the run_file",
+    "binary_judgements": "set to true to use 1 or 0 relevance judgement",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "queries": "Gives the queries file.",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "reranking": "set to true if want to rerank a run_file results",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "train_run": "Gives the TREC formatted run file, if train data will be extracted from only one run.",
+    "from_run": "set to true to train in data from a given run_file",
+    "scales": "give a number of scales if not binary judgements",
+    "indexed_data": "Gives the INDRI index of the collection."
+  },
+  "relevance_judgements": "",
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "train_queries_format": "mq",
+  "reranking": true,
+  "output_folder": "/home/thiziri/Desktop",
+  "cross_validation": true,
+  "train_run": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "scales": 3,
+  "from_run": true,
+  "train_queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/trec_million_queries/MQ_queries",
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88"
+}
+INFO:root:From run: /home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ
+INFO:root:Corpus file saved to /home/thiziri/Desktop/trec_corpus.txt with 139908 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "rerank_run": "indri_runs/okapi_k1_1.2_b_0.75_k3_7_AP88",
+  "k": 2000,
+  "train_relations": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/run2relations_okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "from_qrels": false,
+  "scales": 3,
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "train_queries_format": "mq",
+  "test_queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88/",
+  "cross_validation": true,
+  "output_folder": "/home/thiziri/Desktop",
+  "binary_judgements": false,
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/million_queries/same_test_train_valid",
+  "relevance_judgements": "",
+  "from_run": true,
+  "reranking": true,
+  "description": {
+    "rerank_run": "Gives the TREC formatted run file that will be re-ranked",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "k": "Number of results to rerank from the run_file",
+    "train_relations": "Gives the trec_qrels like file with training labels",
+    "from_qrels": "set to true to train in data from relevance judgements",
+    "scales": "give a number of scales if not binary judgements",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "binary_judgements": "set to true to use 1 or 0 relevance judgement",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "queries": "Gives the queries file.",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "from_run": "set to true to train in data from a given run_file",
+    "reranking": "set to true if want to rerank a run_file results",
+    "train_run": "Gives the TREC formatted run file, if train data will be extracted from only one run."
+  },
+  "train_queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/trec_million_queries/MQ_queries",
+  "test_queries_format": "trec",
+  "train_run": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ"
+}
+INFO:root:From run: /home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ
+INFO:root:Corpus file saved to /home/thiziri/Desktop/trec_corpus.txt with 139958 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "test_queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88/",
+  "k": 2000,
+  "train_relations": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/run2relations_okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "scales": 3,
+  "output_folder": "/home/thiziri/Desktop",
+  "test_queries_format": "trec",
+  "train_run": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "rerank_run": "indri_runs/okapi_k1_1.2_b_0.75_k3_7_AP88",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/million_queries/same_test_train_valid",
+  "reranking": true,
+  "from_qrels": false,
+  "relevance_judgements": "",
+  "description": {
+    "k": "Number of results to rerank from the run_file",
+    "queries": "Gives the queries file.",
+    "rerank_run": "Gives the TREC formatted run file that will be re-ranked",
+    "scales": "give a number of scales if not binary judgements",
+    "from_qrels": "set to true to train in data from relevance judgements",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "train_run": "Gives the TREC formatted run file, if train data will be extracted from only one run.",
+    "train_relations": "Gives the trec_qrels like file with training labels",
+    "reranking": "set to true if want to rerank a run_file results",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "binary_judgements": "set to true to use 1 or 0 relevance judgement",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "from_run": "set to true to train in data from a given run_file",
+    "cross_validation": "set to true if want to construct data for n-cross validation."
+  },
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "binary_judgements": false,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "from_run": true,
+  "train_queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/trec_million_queries/MQ_queries",
+  "cross_validation": true,
+  "train_queries_format": "mq"
+}
+INFO:root:From run: /home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ
+INFO:root:Corpus file saved to /home/thiziri/Desktop/trec_corpus.txt with 139958 lines
+INFO:root:Data cross-validation, resulting files are in %s
+INFO:root:Config: {
+  "train_queries_format": "mq",
+  "scales": 3,
+  "rerank_run": "indri_runs/okapi_k1_1.2_b_0.75_k3_7_AP88",
+  "ranks": [
+    [
+      1,
+      10
+    ],
+    [
+      11,
+      30
+    ],
+    [
+      31,
+      50
+    ]
+  ],
+  "from_run": true,
+  "cross_validation": true,
+  "description": {
+    "scales": "give a number of scales if not binary judgements",
+    "runs_folder": "Gives the folder that contains a set of TREC like run files, if extraction from alist of runs",
+    "rerank_run": "Gives the TREC formatted run file that will be re-ranked",
+    "ranks": "a list of rank intervals that will be used with the scales.",
+    "cross_validation": "set to true if want to construct data for n-cross validation.",
+    "from_qrels": "set to true to train in data from relevance judgements",
+    "train_run": "Gives the TREC formatted run file, if train data will be extracted from only one run.",
+    "reranking": "set to true if want to rerank a run_file results",
+    "indexed_data": "Gives the INDRI index of the collection.",
+    "output_folder": "Gives the output folder where constructed file will be stored.",
+    "from_run": "set to true to train in data from a given run_file",
+    "split_data": "Gives the split data into test/train/valid folds",
+    "train_relations": "Gives the trec_qrels like file with training labels",
+    "k": "Number of results to rerank from the run_file",
+    "queries": "Gives the queries file.",
+    "relevance_judgements": "Gives the TREC like relevance judgements file, if extraction with relevance judgements.",
+    "binary_judgements": "set to true to use 1 or 0 relevance judgement"
+  },
+  "binary_judgements": false,
+  "train_queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/trec_million_queries/MQ_queries",
+  "reranking": true,
+  "indexed_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "output_folder": "/home/thiziri/Desktop",
+  "test_queries": "/home/thiziri/Documents/DOCTORAT/COLLECTION/TOPICS/AP88/",
+  "split_data": "/home/thiziri/Documents/DOCTORAT/COLLECTION/split_data/by_queries/million_queries/same_test_train_valid",
+  "train_run": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ",
+  "k": 2000,
+  "relevance_judgements": "",
+  "test_queries_format": "trec",
+  "from_qrels": false,
+  "train_relations": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/run2relations_okapi_k1_1.2_b_0.75_k3_7_AP88_MQ"
+}
+INFO:root:From run: /home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/okapi_k1_1.2_b_0.75_k3_7_AP88_MQ
+INFO:root:Corpus file saved to /home/thiziri/Desktop/trec_corpus.txt with 139958 lines
+INFO:root:Data cross-validation, resulting files are in %s

@@ -203,7 +203,7 @@ def extract_trec_million_queries(path_top):
         for line in tqdm(input.readlines()):
             l = line.decode("iso-8859-15")
             query = l.strip().split(":")
-            q = int(query[0])
+            q = "mq" + str(int(query[0]))
             q_text = query[-1]  # last token string
             topics[q] = q_text
     return collections.OrderedDict(sorted(topics.items()))
@@ -313,7 +313,7 @@ Return: number of written lines nl
 def save_corpus(queries_text, ranked_documents, index, id2token, externelDocId,out):
     print("Saving text corpus ...")
     nl = 0
-    for q in tqdm(collections.OrderedDict(sorted(queries_text.items()))):
+    for q in collections.OrderedDict(sorted(queries_text.items())):
         out.write("{d} {d_txt}\n".format(d=q, d_txt=queries_text[q], encoding='utf8'))
         nl += 1
     

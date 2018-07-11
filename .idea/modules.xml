@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/.idea/MatchZoo.iml" filepath="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/.idea/MatchZoo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../collaborativeLabelling/.idea/collaborativeLabelling.iml" filepath="$PROJECT_DIR$/../collaborativeLabelling/.idea/collaborativeLabelling.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/data_preparation.iml" filepath="$PROJECT_DIR$/.idea/data_preparation.iml" />
       <module fileurl="file://$PROJECT_DIR$/../util/.idea/util.iml" filepath="$PROJECT_DIR$/../util/.idea/util.iml" />
     </modules>
