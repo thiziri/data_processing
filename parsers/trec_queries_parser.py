@@ -135,6 +135,7 @@ def get_content(topic, indices):
     # print(content_label)
     num = ""
     content = ""
+    active = False
     for line in topic.split('\n'):
         if line.strip() != "":
             if starter.match(line.strip().split()[0]) and line.strip().split()[0] in content_label:
