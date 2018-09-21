@@ -8,6 +8,11 @@
     <orderEntry type="module" module-name="util" />
     <orderEntry type="module" module-name="collaborativeLabelling" />
     <orderEntry type="module" module-name="collaborativeLabelling" />
+    <orderEntry type="module" module-name="ToolProject" />
+    <orderEntry type="module" module-name="data_generator_based" />
+    <orderEntry type="module" module-name="Weak_supervision_by_collaboration" />
+    <orderEntry type="module" module-name="MatchZoo_latest" />
+    <orderEntry type="module" module-name="createPythonPlots" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

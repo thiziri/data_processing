@@ -152,6 +152,7 @@ def get_content(topic, indices):
                 active = False
     return num, content
 
+
 if __name__ == '__main__':
     config_file = sys.argv[1]
     configure = json.load(open(config_file))

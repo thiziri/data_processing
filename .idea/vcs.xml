@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$/../../.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../collaborativeLabelling" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo" vcs="Git" />
   </component>
 </project>

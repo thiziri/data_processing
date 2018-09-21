@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/.idea/MatchZoo.iml" filepath="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/.idea/MatchZoo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/.idea/MatchZoo_latest.iml" filepath="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/.idea/MatchZoo_latest.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/ToolProject/.idea/ToolProject.iml" filepath="$USER_HOME$/PycharmProjects/ToolProject/.idea/ToolProject.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/Weak_supervision_by_collaboration/.idea/Weak_supervision_by_collaboration.iml" filepath="$USER_HOME$/PycharmProjects/Weak_supervision_by_collaboration/.idea/Weak_supervision_by_collaboration.iml" />
       <module fileurl="file://$PROJECT_DIR$/../collaborativeLabelling/.idea/collaborativeLabelling.iml" filepath="$PROJECT_DIR$/../collaborativeLabelling/.idea/collaborativeLabelling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../util/createPythonPlots/.idea/createPythonPlots.iml" filepath="$PROJECT_DIR$/../../util/createPythonPlots/.idea/createPythonPlots.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/data_generator_based/.idea/data_generator_based.iml" filepath="$USER_HOME$/PycharmProjects/data_generator_based/.idea/data_generator_based.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/data_preparation.iml" filepath="$PROJECT_DIR$/.idea/data_preparation.iml" />
       <module fileurl="file://$PROJECT_DIR$/../util/.idea/util.iml" filepath="$PROJECT_DIR$/../util/.idea/util.iml" />
     </modules>

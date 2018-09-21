@@ -35,17 +35,24 @@ if __name__ == '__main__':
         random.shuffle(to_split)
         split = chunkIt(to_split, config["folds_num"])
 
-        for i in tqdm(range(config["folds_num"])):
+        if config["validation"]:
+            for i in tqdm(range(config["folds_num"])):
+                    # print("fold ",i, end="\t")
+                    test = split[i]
+                    valid = split[0]
+                    try:
+                        valid = split[i + 1]
+                    except:
+                        pass
+                    # print(test, valid)
+                    train = list(set(to_split) - set(test).union(valid))
+                    folds[i] = {"test": test, "valid": valid, "train": train}
+        else:
+            for i in tqdm(range(config["folds_num"])):
                 # print("fold ",i, end="\t")
                 test = split[i]
-                valid = split[0]
-                try:
-                    valid = split[i + 1]
-                except:
-                    pass
-                # print(test, valid)
-                train = list(set(to_split) - set(test).union(valid))
-                folds[i] = {"test": test, "valid": valid, "train": train}
+                train = list(set(to_split) - set(test))
+                folds[i] = {"test": test, "train": train}
         if config["same_test_train_valid"]:
             folds[0] = {"test": to_split, "valid": to_split, "train": to_split}
         print("Saving folds ...")
