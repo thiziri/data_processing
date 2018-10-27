@@ -1,0 +1,278 @@
+INFO:root:Config: {
+  "passage_length": 20,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "sequence_length": 10,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml"
+}
+INFO:root:Config: {
+  "passage_length": 20,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "sequence_length": 10
+}
+INFO:root:Config: {
+  "sequence_length": 10,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "passage_length": 20
+}
+INFO:root:Config: {
+  "sequence_length": 10,
+  "passage_length": 20,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml"
+}
+INFO:root:Config: {
+  "passage_length": 20,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "sequence_length": 10,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88"
+}
+INFO:root:Config: {
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "passage_length": 20,
+  "sequence_length": 10,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml"
+}
+INFO:root:Config: {
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "sequence_length": 10,
+  "passage_length": 20
+}
+INFO:root:Config: {
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "sequence_length": 10,
+  "passage_length": 20,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml"
+}
+INFO:root:Config: {
+  "sequence_length": 10,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "passage_length": 20
+}
+INFO:root:Config: {
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "sequence_length": 10,
+  "passage_length": 20,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml"
+}
+INFO:root:Config: {
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "passage_length": 20,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "sequence_length": 10
+}
+INFO:root:Config: {
+  "sequence_length": 10,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "passage_length": 20
+}
+INFO:root:Config: {
+  "passage_length": 20,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "sequence_length": 10
+}
+INFO:root:Config: {
+  "sequence_length": 10,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "passage_length": 20,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml"
+}
+INFO:root:Config: {
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "passage_length": 20,
+  "sequence_length": 10
+}
+INFO:root:Config: {
+  "passage_length": 20,
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "count": 2000,
+  "sequence_length": 10
+}
+INFO:root:Config: {
+  "sequence_length": 10,
+  "count": 2000,
+  "passage_length": 20,
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11"
+}
+INFO:root:Config: {
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "passage_length": 20,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "sequence_length": 10,
+  "count": 2000,
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88"
+}
+INFO:root:Config: {
+  "sequence_length": 10,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "count": 2000,
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "passage_length": 20,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml"
+}
+INFO:root:Config: {
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "sequence_length": 10,
+  "count": 2000,
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "passage_length": 20
+}
+INFO:root:Config: {
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "sequence_length": 10,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "count": 2000,
+  "passage_length": 20,
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88"
+}
+INFO:root:Config: {
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "passage_length": 20,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "sequence_length": 10,
+  "count": 2000
+}
+INFO:root:Config: {
+  "count": 2000,
+  "passage_length": 20,
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "sequence_length": 10,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88"
+}
+INFO:root:Config: {
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "count": 2000,
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "passage_length": 20,
+  "retrieval_model": "",
+  "sequence_length": 10,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88"
+}
+INFO:root:Config: {
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "dataset": "AP88",
+  "sequence_length": 10,
+  "passage_length": 20,
+  "retrieval_model": "okapi,k1:1.2,b:0.75,k3:7",
+  "count": 2000,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages"
+}
+INFO:root:Config: {
+  "count": 2000,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "passage_length": 20,
+  "dataset": "AP88",
+  "retrieval_model": "okapi,k1:1.2,b:0.75,k3:7",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages",
+  "sequence_length": 10,
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11"
+}
+INFO:root:Config: {
+  "sequence_length": 10,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages",
+  "passage_length": 20,
+  "retrieval_model": "okapi,k1:1.2,b:0.75,k3:7",
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "count": 2000,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "dataset": "AP88"
+}
+INFO:root:Config: {
+  "count": 2000,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "sequence_length": 10,
+  "passage_length": 20,
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "retrieval_model": "okapi,k1:1.2,b:0.75,k3:7",
+  "dataset": "AP88",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages"
+}
+INFO:root:Config: {
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "sequence_length": 10,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages",
+  "passage_length": 20,
+  "retrieval_model": "okapi,k1:1.2,b:0.75,k3:7",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "dataset": "AP88",
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "count": 2000
+}
+INFO:root:Config: {
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages",
+  "sequence_length": 10,
+  "count": 2000,
+  "retrieval_model": "okapi,k1:1.2,b:0.75,k3:7",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "dataset": "AP88",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "passage_length": 20
+}
+INFO:root:Config: {
+  "passage_length": 20,
+  "retrieval_model": "okapi,k1:1.2,b:0.75,k3:7",
+  "dataset": "AP88",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages",
+  "count": 2000,
+  "sequence_length": 10
+}
+INFO:root:Config: {
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "sequence_length": 10,
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "count": 2000,
+  "passage_length": 20,
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "dataset": "AP88",
+  "retrieval_model": "okapi,k1:1.2,b:0.75,k3:7"
+}
+INFO:root:Config: {
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "passage_length": 20,
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88",
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "sequence_length": 10,
+  "count": 2000
+}
+INFO:root:Config: {
+  "count": 2000,
+  "output": "/home/thiziri/Documents/DOCTORAT/TESTS/RUNS/INDRI_runs/passages/AP88",
+  "parameters": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/parameterFiles/RetrievalParameterFile_AP88.xml",
+  "sequence_length": 10,
+  "passage_length": 20,
+  "indri": "/home/thiziri/Documents/DOCTORAT/SOFT/INDRI/indri-5.11",
+  "index": "/home/thiziri/Documents/DOCTORAT/COLLECTION/Indri_index/AP88"
+}
