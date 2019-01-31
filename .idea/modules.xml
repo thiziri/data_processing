@@ -6,9 +6,9 @@
       <module fileurl="file://$USER_HOME$/PycharmProjects/ToolProject/.idea/ToolProject.iml" filepath="$USER_HOME$/PycharmProjects/ToolProject/.idea/ToolProject.iml" />
       <module fileurl="file://$USER_HOME$/PycharmProjects/Weak_supervision_by_collaboration/.idea/Weak_supervision_by_collaboration.iml" filepath="$USER_HOME$/PycharmProjects/Weak_supervision_by_collaboration/.idea/Weak_supervision_by_collaboration.iml" />
       <module fileurl="file://$PROJECT_DIR$/../collaborativeLabelling/.idea/collaborativeLabelling.iml" filepath="$PROJECT_DIR$/../collaborativeLabelling/.idea/collaborativeLabelling.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../util/createPythonPlots/.idea/createPythonPlots.iml" filepath="$PROJECT_DIR$/../../util/createPythonPlots/.idea/createPythonPlots.iml" />
       <module fileurl="file://$USER_HOME$/PycharmProjects/data_generator_based/.idea/data_generator_based.iml" filepath="$USER_HOME$/PycharmProjects/data_generator_based/.idea/data_generator_based.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/data_preparation.iml" filepath="$PROJECT_DIR$/.idea/data_preparation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/.idea/tf_idf_W2V.iml" filepath="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/.idea/tf_idf_W2V.iml" />
       <module fileurl="file://$PROJECT_DIR$/../util/.idea/util.iml" filepath="$PROJECT_DIR$/../util/.idea/util.iml" />
     </modules>
   </component>

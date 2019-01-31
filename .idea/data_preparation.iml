@@ -12,7 +12,7 @@
     <orderEntry type="module" module-name="data_generator_based" />
     <orderEntry type="module" module-name="Weak_supervision_by_collaboration" />
     <orderEntry type="module" module-name="MatchZoo_latest" />
-    <orderEntry type="module" module-name="createPythonPlots" />
+    <orderEntry type="module" module-name="tf_idf_W2V" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
