@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/../collaborativeLabelling/models/collaborative_biLSTM_model_out.py" beforeDir="false" afterPath="$PROJECT_DIR$/../collaborativeLabelling/models/collaborative_biLSTM_model_out.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../collaborativeLabelling/models/content_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../collaborativeLabelling/models/content_reader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../collaborativeLabelling/models/data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../collaborativeLabelling/models/data_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/evaluate_all_runs.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="4" />
+              <selected id="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/forIndri/fold_based_retrieval.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
             </state>
           </provider>
         </entry>
@@ -438,9 +446,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="207" y="1076" width="1555" height="904" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990403" visible="true" weight="0.20691906" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990403" visible="true" weight="0.20691906" />
       <window_info id="Structure" order="1" sideWeight="0.5009597" side_tool="true" weight="0.3616188" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -451,7 +458,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" x="207" y="1104" width="1555" height="876" id="Python Console" maximized="true" order="7" weight="0.35135135" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49921876" visible="true" weight="0.3809524" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49921876" visible="true" weight="0.3809524" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3271028" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50078124" side_tool="true" weight="0.28304407" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -818,13 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forIndri/fold_based_retrieval.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/measures/evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -849,6 +849,13 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forIndri/fold_based_retrieval.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
         </state>
       </provider>
     </entry>
