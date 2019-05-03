@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b734dbe2-0fea-4a0a-afdd-0edfd85ceda8" name="Default" comment="fix error in check a directory">
+      <change afterPath="$PROJECT_DIR$/parsers/config/parse_title.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/parse_titles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Project" beforeDir="false" afterPath="$PROJECT_DIR$/../.." afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../collaborativeLabelling/data/data_to_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/../collaborativeLabelling/data/data_to_index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../collaborativeLabelling/models/collaborative_biLSTM_model_out.py" beforeDir="false" afterPath="$PROJECT_DIR$/../collaborativeLabelling/models/collaborative_biLSTM_model_out.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../collaborativeLabelling/models/content_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../collaborativeLabelling/models/content_reader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../collaborativeLabelling/models/data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../collaborativeLabelling/models/data_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/trec_queries_parser.json" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/config/trec_queries_parser.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,53 +21,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/evaluate_all_runs.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/forIndri/fold_based_retrieval.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/passages_based/reconstruct_trec_doc_ids.py">
+        <entry file="file://$PROJECT_DIR$/parsers/parse_titles.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="389">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#93#103#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/runs/evalRuns.py">
+        <entry file="file://$PROJECT_DIR$/parsers/config/parse_title.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="48" column="125" selection-start-line="48" selection-start-column="97" selection-end-line="48" selection-end-column="125" />
+            <state relative-caret-position="30">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/measures/evaluate.py">
+        <entry file="file://$PROJECT_DIR$/parsers/trec_queries_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="34" column="84" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="84" />
-              <folding>
-                <element signature="e#43#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="172">
+              <caret line="119" column="49" selection-start-line="119" selection-start-column="49" selection-end-line="119" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -72,18 +56,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>chun</find>
-      <find>cossim</find>
-      <find>allD_QinD_notQinD_sim</find>
-      <find>allD_allQ_sim</find>
-      <find>model_type</find>
       <find>load</find>
       <find>sess</find>
       <find>embed</find>
@@ -109,9 +88,13 @@
       <find>get_docs_from_run</find>
       <find>save_corpus</find>
       <find>run2relations</find>
+      <find>crop</find>
+      <find>$PROJECT_DIR$/../../../../SOFT/MatchZoo/data/WikiQA</find>
+      <find>$PROJECT_DIR$/../../../../SOFT/MatchZoo/data/WikiQA/</find>
+      <find>rank</find>
+      <find>tqdm</find>
     </findStrings>
     <replaceStrings>
-      <replace>valid_p10</replace>
       <replace>test_p10</replace>
       <replace>config[&quot;train_run&quot;]</replace>
       <replace>QRELS</replace>
@@ -131,7 +114,6 @@
       <replace>examples/QuoraQP</replace>
       <replace>$PROJECT_DIR$/../../../../SOFT/MatchZoo/data/WikiQA</replace>
       <replace>$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/data/QuoraQP</replace>
-      <replace>$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest1/data/AP88/passageRetrieval_qrels/concatenated/fold_0</replace>
       <replace>dropout_rate</replace>
       <replace>if_pseudo_tf</replace>
       <replace>input_conf['share']</replace>
@@ -141,6 +123,8 @@
       <replace>sets</replace>
       <replace>&lt;data_path&gt;</replace>
       <replace>letor</replace>
+      <replace>$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest1/data/AP88/passageRetrieval_qrels/concatenated/fold_0</replace>
+      <replace>$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest1/data/AP88/passageRetrieval_qrels/concatenated/fold_0/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/layers</dir>
@@ -148,28 +132,11 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../util/evaluationAndMesures/measures/extract_mesure_results.py" />
-        <option value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/AccuracyModels.py" />
-        <option value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/doc2vec.py" />
-        <option value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/ranking_models/tools4text.py" />
-        <option value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/ranking_models/preprocess_parallel.py" />
-        <option value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/ranking_models/configs/preprocess_parallel.config" />
-        <option value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/ranking_models/configs/preprocess.config" />
-        <option value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/ranking_models/preprocess.py" />
-        <option value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/README.md" />
-        <option value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/ranking_models/function_tools.py" />
-        <option value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/ranking_models/presence_absence_Qterms.py" />
-        <option value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V/ranking_models/configs/presence_absence_Qterms.config" />
-        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/main.py" />
-        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/wikiqa/config/duet_wikiqa.config" />
-        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/wikiqa/config/global_wikiqa.config" />
-        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/wikiqa/config/amvlstm_wikiqa.config" />
-        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/global_model.py" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/data_preparation/preparation/collection2concat_contexts.py" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/data/Letor/utils.py" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/data/Letor/configs/retrieve_passages.config" />
@@ -183,17 +150,14 @@
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/.gitignore" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/letor/config/accnnm_basic_config.config" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/letor/config/create_all_configs.ipynb" />
-        <option value="$PROJECT_DIR$/../util/evaluationAndMesures/runs/evalRuns.py" />
         <option value="$PROJECT_DIR$/../util/evaluationAndMesures/passages_based/aggregate_passages.py" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/contextual/accnnm.config" />
-        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/accnnm.py" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/data/Letor/configs/build_corpus_concat.config" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/data/Letor/configs/filter_queries.config" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/data/Letor/filter_queries.py" />
         <option value="$PROJECT_DIR$/forIndri/letor_ranking_parameter.ipynb" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/contextual/accnnm_basic_config.config" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/create_all_configs.ipynb" />
-        <option value="$PROJECT_DIR$/../util/evaluationAndMesures/measures/evaluate.py" />
         <option value="$PROJECT_DIR$/forIndri/fold_based_retrieval.ipynb" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/data_preparation/config/prepare_input_trec_text_title.config" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/data/trec/preparation_for_ranking.py" />
@@ -202,16 +166,36 @@
         <option value="$PROJECT_DIR$/forIndri/passage_based_retrieval.ipynb" />
         <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/correct_predict_path.ipynb" />
         <option value="$PROJECT_DIR$/../util/evaluationAndMesures/filter_best_configs.ipynb" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/contextual/accnnm_idf.config" />
+        <option value="$PROJECT_DIR$/../util/evaluationAndMesures/measures/evaluate.py" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/accnnm_idf.py" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/main.py" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/accnnm.py" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/matchpyramid_trec.config" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/matchpyramid_passages_trec.config" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/matchpyramid_passages.py" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/amvlstm_trec.config" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/amvlstm_passages_trec.config" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/arcii_trec.config" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/arcii_passages_trec.config" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/arcii_passages.py" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/duet_trec.config" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/duet_passages.py" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/duet_passages_trec.config" />
+        <option value="$PROJECT_DIR$/../util/evaluationAndMesures/runs/evalRuns.py" />
         <option value="$PROJECT_DIR$/../util/evaluationAndMesures/passages_based/reconstruct_trec_doc_ids.py" />
         <option value="$PROJECT_DIR$/../util/evaluationAndMesures/evaluate_all_runs.ipynb" />
+        <option value="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/amvlstm_passages.py" />
+        <option value="$PROJECT_DIR$/parsers/config/parse_title.config" />
+        <option value="$PROJECT_DIR$/parsers/parse_titles.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="190" />
-    <option name="y" value="1176" />
-    <option name="width" value="1523" />
-    <option name="height" value="896" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="45" />
+    <option name="y" value="24" />
+    <option name="width" value="1554" />
+    <option name="height" value="1009" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,80 +217,41 @@
             </path>
             <path>
               <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="data_preparation" type="462c0819:PsiDirectoryNode" />
+              <item name="parsers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluationAndMesures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MatchZoo_latest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MatchZoo_latest" type="462c0819:PsiDirectoryNode" />
-              <item name="MatchZoo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MatchZoo_latest" type="462c0819:PsiDirectoryNode" />
-              <item name="MatchZoo" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MatchZoo_latest" type="462c0819:PsiDirectoryNode" />
-              <item name="MatchZoo" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MatchZoo_latest" type="462c0819:PsiDirectoryNode" />
-              <item name="MatchZoo" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="letor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MatchZoo_latest" type="462c0819:PsiDirectoryNode" />
-              <item name="MatchZoo" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="letor" type="462c0819:PsiDirectoryNode" />
+              <item name="data_preparation" type="462c0819:PsiDirectoryNode" />
+              <item name="parsers" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_preparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MatchZoo_latest" type="462c0819:PsiDirectoryNode" />
-              <item name="MatchZoo" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="trec" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config" />
+      <recent name="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models" />
+      <recent name="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/contextual" />
+      <recent name="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/data_preparation/preparation" />
+      <recent name="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/parsers/config" />
       <recent name="$PROJECT_DIR$/../../WEIR/models_run/tf_idf_W2V" />
       <recent name="$PROJECT_DIR$/../util/evaluationAndMesures/measures" />
       <recent name="$PROJECT_DIR$/../util/evaluationAndMesures/runs" />
       <recent name="$PROJECT_DIR$/../util/evaluationAndMesures/passages_based" />
-      <recent name="$PROJECT_DIR$/../util/evaluationAndMesures/w2v_basedIR_eval" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/data_preparation/preparation" />
-      <recent name="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/contextual" />
-      <recent name="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec" />
-      <recent name="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/data/Letor/configs" />
-      <recent name="$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/data/Letor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -404,9 +348,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jupyter Notebook.collaborativeLabelling" />
-      <item itemvalue="Python.collection2MZinpuText_chunkList_updated" />
       <item itemvalue="Python.collaborative_biLSTM_model_out" />
+      <item itemvalue="Python.collection2MZinpuText_chunkList_updated" />
       <item itemvalue="Python.filter_queries" />
     </list>
     <recent_temporary>
@@ -445,21 +388,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="207" y="1076" width="1555" height="904" extended-state="6" />
+    <frame x="45" y="24" width="1554" height="1009" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990403" visible="true" weight="0.20691906" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990403" visible="true" weight="0.30633572" />
       <window_info id="Structure" order="1" sideWeight="0.5009597" side_tool="true" weight="0.3616188" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27799228" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2777778" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39919892" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
-      <window_info anchor="bottom" x="207" y="1104" width="1555" height="876" id="Python Console" maximized="true" order="7" weight="0.35135135" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49921876" visible="true" weight="0.3809524" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3271028" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286052" />
+      <window_info anchor="bottom" x="207" y="1104" width="1555" height="876" id="Python Console" maximized="true" order="7" weight="0.29359823" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49921876" visible="true" weight="0.33995584" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32624114" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50078124" side_tool="true" weight="0.28304407" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -504,140 +447,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/accnnm_ec_50.png" />
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/amvlstm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/wikiqa/config/amvlstm_wikiqa.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/accnnm_ec_30.png" />
-    <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/measures/measures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <folding>
-            <element signature="e#119#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/images/accnnm_ec_5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/anmm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-          <folding>
-            <element signature="e#90#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/images/accnnm_ec_10.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/matchsrnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/sbdecatten.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="189" column="42" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/duet.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/global_model.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/conv_knrm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1491">
-          <caret line="112" column="57" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/knrm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="78" column="46" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/wikiqa/config/cdssm_wikiqa.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/wikiqa/config/matchpyramid_wikiqa.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/cdssm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/wikiqa/config/arcii_wikiqa.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/mvlstm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="59" column="68" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/letor/config/accnnm_basic_config.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/data_preparation/config/collection2concat_contexts.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/contextual/accnnm.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/data/Letor/configs/build_corpus_concat.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forIndri/retriev_passages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="50" column="53" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="53" />
-          <folding>
-            <element signature="e#76#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/data/Letor/retriev_passages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-653">
@@ -653,16 +462,6 @@
           <caret line="38" column="80" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
           <folding>
             <element signature="e#76#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/accnnm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="174" column="35" selection-start-line="174" selection-start-column="35" selection-end-line="174" selection-end-column="35" />
-          <folding>
-            <element signature="e#23#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -695,13 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="137" column="11" lean-forward="true" selection-start-line="137" selection-start-column="11" selection-end-line="137" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/contextual/accnnm_basic_config.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -776,59 +568,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/letor/config/create_all_configs.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/letor/config/create_all_configs.ipynb" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/correct_predict_path.ipynb" />
+    <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/filter_best_configs.ipynb" />
+    <entry file="file://$PROJECT_DIR$/forIndri/passage_based_retrieval.ipynb" />
+    <entry file="file://$PROJECT_DIR$/forIndri/letor_ranking_parameter.ipynb" />
+    <entry file="file://$PROJECT_DIR$/forIndri/fold_based_retrieval.ipynb" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/contextual/accnnm_idf.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="22" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/correct_predict_path.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/drmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/filter_best_configs.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/wikiqa/config/drmm_wikiqa.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="91" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forIndri/passage_based_retrieval.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/create_all_configs.ipynb" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/contextual/accnnm_basic_config.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forIndri/letor_ranking_parameter.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="3" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/global_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <folding>
+            <element signature="e#23#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/create_all_configs.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/symAsym.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="182" column="18" selection-start-line="182" selection-start-column="12" selection-end-line="182" selection-end-column="18" />
+          <folding>
+            <element signature="e#23#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/accnnm_idf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="48" column="73" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="73" />
+          <folding>
+            <element signature="e#23#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/matchpyramid_trec.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/mvlstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="59" column="69" lean-forward="true" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/amvlstm_trec.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="56" column="148" selection-start-line="56" selection-start-column="148" selection-end-line="56" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/accnnm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="103" column="54" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="54" />
+          <folding>
+            <element signature="e#23#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/contextual/accnnm.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="130" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/arcii_trec.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/matchpyramid_passages_trec.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="67" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/arcii_passages_trec.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="34" selection-start-line="65" selection-start-column="8" selection-end-line="67" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/duet_trec.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/duet_passages_trec.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="68" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/examples/trec/config/amvlstm_passages_trec.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/duet_passages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="180" column="53" selection-start-line="180" selection-start-column="53" selection-end-line="180" selection-end-column="53" />
+          <folding>
+            <element signature="e#23#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/matchpyramid_passages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="44" />
+          <folding>
+            <element signature="e#23#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/evaluate_all_runs.ipynb" />
     <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/runs/evalRuns.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="48" column="125" selection-start-line="48" selection-start-column="97" selection-end-line="48" selection-end-column="125" />
+        <state relative-caret-position="599">
+          <caret line="48" column="79" selection-start-line="48" selection-start-column="79" selection-end-line="48" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/measures/evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="34" column="84" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="84" />
+        <state relative-caret-position="1095">
+          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
           <folding>
             <element signature="e#43#56#0" expanded="true" />
           </folding>
@@ -837,25 +753,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/passages_based/reconstruct_trec_doc_ids.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="614">
+          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../util/evaluationAndMesures/evaluate_all_runs.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/amvlstm_passages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="135" column="54" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="54" />
+          <folding>
+            <element signature="e#23#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forIndri/fold_based_retrieval.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
+    <entry file="file://$PROJECT_DIR$/../../../../SOFT/MatchZoo_latest/MatchZoo/matchzoo/models/arcii_passages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="127" column="48" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
+          <folding>
+            <element signature="e#23#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsers/trec_queries_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="119" column="49" selection-start-line="119" selection-start-column="49" selection-end-line="119" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsers/config/parse_title.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsers/parse_titles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#93#103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
